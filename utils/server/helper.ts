@@ -10,7 +10,7 @@ export const defaultLobby = JSON.stringify([
   {
     id: "public",
     name: "Public Lobby",
-    maxPlayers: 16,
+    maxPlayers: 25,
     players: [],
     status: "waiting",
     dictionary: process.env["PUBLIC_LOBBY_DICTIONARY"] || "english",

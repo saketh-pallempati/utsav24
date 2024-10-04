@@ -17,11 +17,11 @@ export async function createLobby() {
   const newLobby: Lobby = {
     id: uuidv4(),
     name: "New Lobby",
-    maxPlayers: 16,
+    maxPlayers: 25,
     players: [],
     status: "waiting",
     dictionary: "english",
-    host: "saketh",
+    host: "saketh8228",
     createdAt: new Date().toISOString(),
     isPrivate: false,
     lastGameStartedAt: undefined,
